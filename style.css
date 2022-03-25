@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-horizontal ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(61, 150, 98);
+    max-width: 100% ;
+}
+#menu-horizontal ul li {
+    display: inline;
+}
+#menu-horizontal ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    transition: background .4s;
+}
+
+#menu-horizontal ul li a:hover{
+    background-color: rgb(116, 94, 206);
+    
+}
+#ultimo {
+    float: right;
+    background-color: rgb(155, 152, 163);
+}
+#primeira {
+    font-family: 'Open Sans', sans-serif;
+    float: inline-start;
+    font-size: 20px;
+    color: rgb(139, 192, 152);
+    padding: 10px;
+    background-color: aliceblue;
+    font-weight: 800;
+    }
+    
